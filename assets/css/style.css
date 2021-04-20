@@ -75,7 +75,8 @@ p {
 
 #comp {
     background-color: rgb(0, 139, 139);
-    height: 60vh;
+    height: auto;
+    
 }
 #SkillBox {
     width: 90%;
