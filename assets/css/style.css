@@ -1,0 +1,419 @@
+* {
+    font-family: 'Karantina', cursive;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    min-height: 400px;
+    background-color: rgb(0, 139, 139);
+    margin: 0;
+}
+
+#photo {
+    max-height: 30vh;
+    width: auto;
+    margin-top: 8vh;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+}
+
+nav {
+    background-color: darkcyan;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    width: 16vw;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: darkcyan;
+    
+    z-index: 1000;
+    
+}
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: darkorange;
+}
+
+h2 {
+    font-size: 3rem;margin-top: 1vh; text-decoration: underline;
+}
+
+p {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: darkorange;
+}
+
+#burger {
+    width: 30px;
+}
+
+#comp {
+    background-color: rgb(0, 139, 139);
+    height: 60vh;
+}
+#SkillBox {
+    width: 90%;
+    height: auto;
+}
+.SkillBar {
+    width: 84%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+
+#Skill-HTML {
+    width: 100%;
+    animation: Animate-HTML 12s;
+    -webkit-animation: Animate-HTML 12s;
+    -moz-animation: Animate-HTML 12s;
+    -o-animation: Animate-HTML 12s;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(0, 153, 153);
+}
+
+@keyframes Animate-HTML {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 100%
+    }
+}
+
+@-webkit-keyframes Animate-HTML {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 100%
+    }
+}
+
+@-moz-keyframes Animate-HTML {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 100%
+    }
+}
+
+@-o-keyframes Animate-HTML {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 100%
+    }
+}
+
+#Skill-CSS {
+    animation: Animate-CSS 12s;
+    -webkit-animation: Animate-CSS 12s;
+    -moz-animation: Animate-CSS 12s;
+    -o-animation: Animate-CSS 12s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(95, 158, 160);
+}
+
+@keyframes Animate-CSS {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 70%
+    }
+}
+
+@-webkit-keyframes Animate-CSS {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 70%
+    }
+}
+
+@-moz-keyframes Animate-CSS {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 70%
+    }
+}
+
+@-o-keyframes Animate-CSS {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 70%
+    }
+}
+#Skill-JS {
+    animation: Animate-JS 12s;
+    -webkit-animation: Animate-JS 12s;
+    -moz-animation: Animate-JS 12s;
+    -o-animation: Animate-JS 12s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(110, 188, 177);
+}
+
+@keyframes Animate-JS {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 40%
+    }
+}
+
+@-webkit-keyframes Animate-JS {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 40%
+    }
+}
+
+@-moz-keyframes Animate-JS {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 40%
+    }
+}
+
+@-o-keyframes Animate-JS {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 40%
+    }
+}
+#Skill-PHP {
+    animation: Animate-PHP 12s;
+    -webkit-animation: Animate-PHP 12s;
+    -moz-animation: Animate-PHP 12s;
+    -o-animation: Animate-PHP 12s;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(139, 201, 200);
+}
+
+@keyframes Animate-PHP {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 30%
+    }
+}
+
+@-webkit-keyframes Animate-PHP {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 30%
+    }
+}
+
+@-moz-keyframes Animate-PHP {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 30%
+    }
+}
+
+@-o-keyframes Animate-PHP {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 30%
+    }
+}
+
+#Skill-SQL {
+    animation: Animate-SQL 12s;
+    -webkit-animation: Animate-SQL 12s;
+    -moz-animation: Animate-SQL 12s;
+    -o-animation: Animate-SQL 12s;
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(176, 224, 230);
+}
+
+@keyframes Animate-SQL {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 20%
+    }
+}
+
+@-webkit-keyframes Animate-SQL {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 20%
+    }
+}
+
+@-moz-keyframes Animate-SQL {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 20%
+    }
+}
+
+@-o-keyframes Animate-SQL {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 20%
+    }
+}
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    position: absolute;
+    /*margin-top: 15px;*/
+    margin-left: 15px;
+    text-shadow: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    /*margin-top: 15px;*/
+    float: right;
+    text-shadow: none;
+    color: white;
+    font-size: 2rem;
+}
+#experience
+{
+    background-color: white;
+}
+/******************* Timeline Demo - 2 *****************/
+.main-timeline2{padding-top:50px;overflow:hidden;position:relative}
+.main-timeline2:before{content:"";width:7px;height:100%;background:#084772;margin:0 auto;position:absolute;top:80px;left:0;right:0}
+.main-timeline2 .timeline{width:50%;float:left;padding:20px 60px;border-top:7px solid #084772;border-right:7px solid #084772;border-radius:0 30px 0 0;position:relative;right:-3.5px}
+.main-timeline2 .icon{display:block;width:50px;height:50px;line-height:50px;border-radius:50%;background:darkcyan;border:1px solid #fff;text-align:center;font-size:25px;color:#fff;box-shadow:0 0 0 2px #084772;position:absolute;top:-30px;left:0}
+.main-timeline2 .timeline-content{display:block;padding:30px 10px 10px;border-radius:20px;background:darkcyan;color:white;position:relative}
+.main-timeline2 .timeline-content:hover{text-decoration:none;color:black}
+.main-timeline2 .timeline-content:after,.main-timeline2 .timeline-content:before{content:"";display:block;width:10px;height:50px;border-radius:10px;background:darkcyan;border:1px solid #fff;position:absolute;top:-35px;left:50px}
+.main-timeline2 .timeline-content:after{left:auto;right:50px}
+.main-timeline2 .title{font-size:2rem;margin:0}
+.main-timeline2 .description{font-size:1.5rem;letter-spacing:1px;margin:0 0 5px}
+.main-timeline2 .timeline:nth-child(2n){border-right:none;border-left:7px solid #084772;border-radius:30px 0 0;right:auto;left:-3.5px}
+.main-timeline2 .timeline:nth-child(2n) .icon{left:auto;right:0;box-shadow:0 0 0 2px #084772}
+.main-timeline2 .timeline:nth-child(2){margin-top:130px}
+.main-timeline2 .timeline:nth-child(odd){margin:-130px 0 30px}
+.main-timeline2 .timeline:nth-child(even){margin-bottom:80px}
+.main-timeline2 .timeline:first-child,.main-timeline2 .timeline:last-child:nth-child(even){margin:0 0 30px}
+.main-timeline2 .timeline:nth-child(2n) .icon,.main-timeline2 .timeline:nth-child(2n) .timeline-content,.main-timeline2 .timeline:nth-child(2n) .timeline-content:after,.main-timeline2 .timeline:nth-child(2n) .timeline-content:before{background:darkcyan}
+.main-timeline2 .timeline:nth-child(3n) .icon,.main-timeline2 .timeline:nth-child(3n) .timeline-content,.main-timeline2 .timeline:nth-child(3n) .timeline-content:after,.main-timeline2 .timeline:nth-child(3n) .timeline-content:before{background:darkcyan}
+.main-timeline2 .timeline:nth-child(3n) .icon{box-shadow:0 0 0 2px #084772}
+.main-timeline2 .timeline:nth-child(4n) .icon,.main-timeline2 .timeline:nth-child(4n) .timeline-content,.main-timeline2 .timeline:nth-child(4n) .timeline-content:after,.main-timeline2 .timeline:nth-child(4n) .timeline-content:before{background:darkcyan}
+.main-timeline2 .timeline:nth-child(4n) .icon{box-shadow:0 0 0 2px #084772}
+@media only screen and (max-width:767px){.main-timeline2:before{left:0;right:auto}
+.main-timeline2 .timeline,.main-timeline2 .timeline:nth-child(even),.main-timeline2 .timeline:nth-child(odd){width:100%;float:none;padding:20px 30px;margin:0 0 30px;border-right:none;border-left:7px solid #084772;border-radius:30px 0 0;right:auto;left:0}
+.main-timeline2 .icon{left:auto;right:0}
+}
+@media only screen and (max-width:480px){.main-timeline2 .title{font-size:18px}
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: darkorange;
+}
+h3
+{
+    text-decoration: underline;
+}
+
+#loisirs
+{
+    background-color: darkcyan;
+    
+}
+.carousel-inner
+{
+    width: 86vw;
+    height: auto;
+    
+}
+.carousel
+{
+    padding-bottom: 4vh;
+}
+#mail
+{
+    width: 30px;
+    margin-right: 15px;
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
